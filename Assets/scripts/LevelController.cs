@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
+
 public class LevelController : MonoBehaviour
 {
     int numOfTouches = 22;
@@ -62,7 +64,7 @@ public class LevelController : MonoBehaviour
         //shins
         if (Input.GetButtonDown("KeyboardF")) { StartCoroutine(Shins14()); }
         //backhead
-        if (Input.GetButtonDown("KeyboardG")) { StartCoroutine(BackHead15()); }
+       // if (keypressed = "KeyboardG") { StartCoroutine(BackHead15()); }
         //nape
         if (Input.GetButtonDown("KeyboardH")) { StartCoroutine(Nape16()); }
         //shoulderback
